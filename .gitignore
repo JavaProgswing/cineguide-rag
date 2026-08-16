@@ -1,0 +1,12 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+data/documents.jsonl
+data/embeddings.npy
+data/index_metadata.json
+data/cineguide.db
+evaluation/results/

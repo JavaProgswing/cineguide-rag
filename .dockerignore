@@ -1,0 +1,12 @@
+.git
+.github
+.venv
+__pycache__
+.pytest_cache
+.ruff_cache
+.env
+data/documents.jsonl
+data/embeddings.npy
+data/index_metadata.json
+data/cineguide.db
+evaluation/results

@@ -1,0 +1,16 @@
+services:
+  cineguide:
+    build: .
+    ports:
+      - "8501:8501"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DATABASE_PATH: /app/state/cineguide.db
+    volumes:
+      - cineguide-state:/app/state
+    restart: unless-stopped
+
+volumes:
+  cineguide-state:
