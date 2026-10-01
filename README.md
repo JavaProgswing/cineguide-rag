@@ -95,7 +95,7 @@ Requirements: Python 3.11 and an internet connection for the first embedding
 model download.
 
 ```powershell
-git clone https://github.com/YOUR_USERNAME/cineguide-rag.git
+git clone https://github.com/JavaProgswing/cineguide-rag.git
 cd cineguide-rag
 
 py -3.11 -m venv .venv
@@ -260,7 +260,7 @@ required TMDB logo to a deployed interface.
 
 ## Submission checklist
 
-- [ ] Replace `YOUR_USERNAME` in the clone URL.
+- [x] Publish the project and set the clone URL.
 - [ ] Add UI and monitoring screenshots after final styling.
 - [ ] Ingest the final corpus and rerun both evaluations.
 - [ ] Commit only safe, reproducible files; confirm `.env` is ignored.
