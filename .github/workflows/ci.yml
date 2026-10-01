@@ -16,6 +16,6 @@ jobs:
       - run: pip install -r requirements-ci.txt
       - run: ruff check .
       - run: python -m compileall -q .
-      - run: pytest
+      - run: python -m pytest
       - run: python ingest.py --source demo --embedding-backend hashing
       - run: python -m evaluation.retrieval
